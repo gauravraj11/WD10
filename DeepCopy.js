@@ -5,7 +5,7 @@
 let original = {
     name: "John",
     address: {
-        city: "New York",
+        city: "Delhi",
         zip: 10001
     }
 };
@@ -14,7 +14,7 @@ let original = {
 let deepCopy = JSON.parse(JSON.stringify(original));
 
 // Modify the deep copy
-deepCopy.address.city = "Los Angeles";
+deepCopy.address.city = "Kashmir";
 
 // Output
 console.log("Original:", original);

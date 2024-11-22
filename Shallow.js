@@ -5,7 +5,7 @@
 let original = {
     name: "John",
     address: {
-        city: "New York",
+        city: "Noida",
         zip: 10001
     }
 };
@@ -14,8 +14,9 @@ let original = {
 let shallowCopy = { ...original };
 
 // Modify the shallow copy
-shallowCopy.address.city = "Los Angeles";
+shallowCopy.address.city = "Manali";
 
 // Output
 console.log("Original:", original);
+
 console.log("Shallow Copy:", shallowCopy);
